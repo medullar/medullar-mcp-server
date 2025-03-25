@@ -1,0 +1,18 @@
+[project]
+name = "medullar-mcp"
+version = "0.0.0"
+description = "MCP server for retrieving Medullar Space data"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.3.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+include = '\.pyi?$'
+exclude = '^\.venv/'
+skip-string-normalization = true
