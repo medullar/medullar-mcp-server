@@ -14,7 +14,7 @@ JWT = os.getenv("MEDULLAR_JWT")
 if not JWT:
     raise ValueError("MEDULLAR_JWT environment variable is not set")
 
-EXPLORATOR_API_BASE = "http://localhost:8000/api/v1.0"
+EXPLORATOR_API_BASE = "https://api.medullar.com/explorator/v1/"
 
 
 async def make_api_request(url: str, method: str = "GET") -> dict[str, Any] | None:
@@ -41,7 +41,8 @@ async def make_api_request(url: str, method: str = "GET") -> dict[str, Any] | No
 
 @mcp.tool()
 async def get_medullar_spaces() -> list[dict[str, Any]]:
-    """Get users medullar spaces, where the user stores their source of truth for their data.
+    """
+    Get users medullar spaces, where the user stores their source of truth for their data.
     Medullar spaces are a way to organize data for a user.
     They contain data that is relevant to a user and that personally the user has curated.
 

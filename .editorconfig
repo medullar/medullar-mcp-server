@@ -13,11 +13,11 @@ indent_style = space
 indent_size = 4
 
 [*.py]
-line_length=120
-known_first_party=cortex
-multi_line_output=3
-default_section=THIRDPARTY
-quotes=double
+line-length = 120
+known_first_party = cortex
+multi_line_output = 3
+default_section = THIRDPARTY
+quotes = double
 
 [*.rst]
 trim_trailing_whitespace = false
