@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/medullar/medullar-mcp-server/compare/v0.1.0...v0.1.1) (2025-03-25)
+
+
+### Documentation
+
+* Add changelog section to README.md ([1b45415](https://github.com/medullar/medullar-mcp-server/commit/1b454151fbad240b39456ea29be08530fe7f4d25))
+
 ## 0.1.0 (2025-03-25)
 
 
