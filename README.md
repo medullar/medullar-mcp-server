@@ -76,3 +76,7 @@ Returns a list of spaces in the format:
     }
 ]
 ```
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
